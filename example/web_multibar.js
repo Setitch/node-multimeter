@@ -1,5 +1,5 @@
 var http = require('http');
-var multimeter = require('multimeter');
+var multimeter = require('setitch-multimeter');
 
 http.createServer(function (req, res) {
     res.setHeader('content-type', 'application/octet-stream');

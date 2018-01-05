@@ -5,7 +5,7 @@
      * @constructor
      */
     function ProgressBar(barNames = [], makeEven = true) {
-        let multimeter = require('multimeter');
+		let multimeter = require('setitch-multimeter');
         let multi = multimeter(process);
 
         let bars = [];

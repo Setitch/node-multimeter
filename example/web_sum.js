@@ -1,5 +1,5 @@
 var http = require('http');
-var multimeter = require('multimeter');
+var multimeter = require('setitch-multimeter');
 
 http.createServer(function (req, res) {
     var multi = multimeter(res);
