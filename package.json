@@ -1,21 +1,21 @@
 {
-    "name" : "multimeter",
-    "version" : "0.1.1",
-    "description" : "render multiple progress bars at once on the terminal",
-    "main" : "index.js",
-    "directories" : {
-        "lib" : ".",
-        "example" : "example",
-        "test" : "test"
+    "name": "setitch/multimeter",
+    "version": "0.2.0",
+    "description": "render multiple progress bars at once on the terminal",
+    "main": "index.js",
+    "directories": {
+        "lib": ".",
+        "example": "example",
+        "test": "test"
     },
-    "dependencies" : {
-        "charm" : "~0.1.1"
+    "dependencies": {
+        "charm": "~0.1.1"
     },
-    "repository" : {
-        "type" : "git",
-        "url" : "http://github.com/substack/node-multimeter.git"
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/setitch/node-multimeter.git"
     },
-    "keywords" : [
+    "keywords": [
         "progress",
         "bar",
         "status",
@@ -24,11 +24,20 @@
         "console",
         "ansi"
     ],
-    "author" : {
-        "name" : "James Halliday",
-        "email" : "mail@substack.net",
-        "url" : "http://substack.net"
-    },
-    "license" : "MIT/X11",
-    "engine" : { "node" : ">=0.4" }
+    "author": [
+        {
+            "name": "James Halliday",
+            "email": "mail@substack.net",
+            "url": "http://substack.net"
+        },
+        {
+            "name": "Artur Łabudziński",
+            "email": "setitch@chibi.pl",
+            "url": "http://chibi.pl/"
+        }
+    ],
+    "license": "MIT/X11",
+    "engine": {
+        "node": ">=0.4"
+    }
 }

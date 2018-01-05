@@ -103,4 +103,4 @@ install
 
 With [npm](http://npmjs.org) do:
 
-    npm install multimeter
+    npm install setitch/multimeter
