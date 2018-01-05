@@ -27,7 +27,7 @@ multi.drop(function (bar) {
 methods
 =======
 
-var multimeter = require('multimeter');
+var multimeter = require('setitch-multimeter');
 
 var multi = multimeter(stream, ...)
 -----------------------------------
@@ -103,4 +103,4 @@ install
 
 With [npm](http://npmjs.org) do:
 
-    npm install setitch/multimeter
+    npm install setitch-multimeter
