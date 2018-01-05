@@ -20,7 +20,7 @@ multi.drop(function (bar) {
         var iv = setInterval(function () {
             sum += xs.shift();
             
-            bar.percent(100 - xs.length);
+            bar.percent(1 - xs.length/100);
             
             charm
                 .position(x, y)
