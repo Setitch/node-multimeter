@@ -20,7 +20,7 @@ http.createServer(function (req, res) {
     
     var iv = setInterval(function () {
         var x = xs.shift();
-        bar.percent(100 - xs.length);
+        bar.percent(1 - xs.length/100);
         
         charm
             .left(sum.toString().length)
