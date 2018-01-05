@@ -1,5 +1,5 @@
 {
-    "name": "setitch/multimeter",
+    "name": "setitch-multimeter",
     "version": "0.2.0",
     "description": "render multiple progress bars at once on the terminal",
     "main": "index.js",
