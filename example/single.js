@@ -4,8 +4,8 @@ var multi = multimeter(process);
 multi.drop(function (bar) {
     var iv = setInterval(function () {
         var p = bar.percent();
-        bar.percent(p + 1);
+        bar.percent(p + 1/100);
         
-        if (p >= 100) clearInterval(iv);
+        if (p >= 1) clearInterval(iv);
     }, 25);
 });
