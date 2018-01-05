@@ -37,7 +37,7 @@ http.createServer(function (req, res) {
     var iv = setInterval(function () {
         progress.forEach(function (p, i) {
             progress[i] += Math.random() * deltas[i];
-            bars[i].percent(progress[i]);
+            bars[i].percent(progress[i]/100);
             if (p < 100 && progress[i] >= 100) pending --;
             if (pending === 0) {
                 multi.write('\nAll done.\n');
